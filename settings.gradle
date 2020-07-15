@@ -1,3 +1,5 @@
+include ':p0111_ResValues'
+include ':p0102_ActivityListener'
 include ':p0101_Listener'
 include ':p0091_OnClickButtons'
 include ':p0081_ViewById'

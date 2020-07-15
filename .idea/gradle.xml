@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/p0081_ViewById" />
             <option value="$PROJECT_DIR$/p0091_OnClickButtons" />
             <option value="$PROJECT_DIR$/p0101_Listener" />
+            <option value="$PROJECT_DIR$/p0102_ActivityListener" />
+            <option value="$PROJECT_DIR$/p0111_ResValues" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
