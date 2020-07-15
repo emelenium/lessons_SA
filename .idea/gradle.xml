@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/p0061_layouts" />
             <option value="$PROJECT_DIR$/p0072_layoutprop" />
             <option value="$PROJECT_DIR$/p0081_ViewById" />
+            <option value="$PROJECT_DIR$/p0091_OnClickButtons" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
