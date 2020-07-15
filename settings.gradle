@@ -1,0 +1,6 @@
+include ':p0081_ViewById'
+include ':p0072_layoutprop'
+include ':p0061_layouts'
+include ':p0031firstproject'
+include ':app'
+rootProject.name = "lessons"
