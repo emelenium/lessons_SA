@@ -1,3 +1,4 @@
+include ':P0131_MenuSimple'
 include ':p0121_LogAndMess'
 include ':p0111_ResValues'
 include ':p0102_ActivityListener'
