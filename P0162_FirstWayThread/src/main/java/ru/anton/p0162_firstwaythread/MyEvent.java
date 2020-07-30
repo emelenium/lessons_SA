@@ -3,7 +3,7 @@ package ru.anton.p0162_firstwaythread;
 import java.util.EventObject;
 
 public class MyEvent extends EventObject {
-    private static final long serialVersionUID = -6326247162271636387L;
+ //   private static final long serialVersionUID = -6326247162271636387L;
     private String            message;
     public MyEvent(Object source, String message)
     {
