@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     LinearLayout llMain;
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     case R.id.rbRight:
                         btnGravity = Gravity.RIGHT;
                         break;
+                    case R.id.btnClear:
+                        llMain.removeAllViews();
+                        Toast.makeText(this, "Удалено", Toast.LENGTH_SHORT).show();
+                        break;
                 }
                 // переносим полученное значение выравнивания в LayoutParams
                 lParams.gravity = btnGravity;
@@ -67,4 +72,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
     }
+
 }
