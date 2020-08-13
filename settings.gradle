@@ -1,3 +1,4 @@
+include ':dynamiclayout3'
 include ':P0171_DynamicLayout2'
 include ':P0162_FirstWayThread'
 include ':P0161_DynamicLayout'
