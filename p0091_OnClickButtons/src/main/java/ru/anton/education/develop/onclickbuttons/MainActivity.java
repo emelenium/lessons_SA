@@ -7,6 +7,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.concurrent.TimeUnit;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
+
 public class MainActivity extends AppCompatActivity {
     TextView tvOut;
     Button btnOk;
@@ -30,7 +34,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+
                 tvOut.setText("Нажата кнопка ОК");
+                try {
+                    SECONDS.sleep(20);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         };
         // присвоим обработчик кнопке OK (btnOk)
