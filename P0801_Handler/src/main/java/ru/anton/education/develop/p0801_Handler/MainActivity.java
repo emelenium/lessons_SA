@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
-    public void onclick (View v) {
+    public void onclick(View v) {
         switch (v.getId()) {
             case R.id.btnStart:
                 btnStart.setEnabled(false);
